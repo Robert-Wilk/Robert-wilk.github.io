@@ -34,3 +34,54 @@
 body {
   background-color: #F1FAEE;
 }
+* {
+  box-sizing: border-box;
+}
+.row {
+  display: flex;
+  flex-wrap: wrap;
+}
+.side {
+  flex: 30%; 
+  background-color: #457B9D; 
+  padding: 20px; 
+  color: white;
+}
+.side h1 {
+  font-family: 'Nunito', sans-serif;
+  font-size: 120%
+}
+.main {
+  flex: 70%; 
+  background-color: #A8DADC; 
+  padding: 20px; 
+  color: white;
+}
+.main h1 {
+  font-family: 'Nunito', sans-serif;
+  font-size: 120%
+}
+.footer {
+  padding: 20px;
+  text-align: center;
+  background: #F1FAEE;
+  color: black;
+}
+.footer h2 {
+	font-family: Arial, Helvetica, sans-serif;
+}
+.footer p1 {
+	font-family: 'Nunito', sans-serif;
+}
+/* Responsive design */
+@media screen and (max-width: 700px) {
+  .row {
+    flex-direction: column;
+  }
+}
+@media screen and (max-width: 400px) {
+  .navbar a {
+    float: none;
+    width: 100%;
+  }
+}
