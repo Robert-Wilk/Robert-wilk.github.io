@@ -31,6 +31,10 @@
   background-color: #457B9D;
   color: white; 
 }
+.navbar a.active {
+  background-color: #457B9D;
+  color: white;
+}
 body {
   background-color: #F1FAEE;
 }
